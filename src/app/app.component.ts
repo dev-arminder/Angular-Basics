@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Angular-Basics';
+  hero = "Dr Stange"
+  mastersName = "Master Blah Man"
+  herosNames = ['Dr IQ', '   ', '  Bombasto  '];
 }
