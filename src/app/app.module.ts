@@ -8,6 +8,7 @@ import {NameChild} from "./Basics/NameChild/nameChild.component"
 import {LifeCycle} from "./Basics/LifeCycle/LifeCycle.component"
 import {VersionParentComponent} from "./Basics/version/version.component"
 import {VersionChildComponent} from "./Basics/version/version-child/versionChild.component"
+import { TempBasicComponent } from './Templates/Basic/basic.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import {VersionChildComponent} from "./Basics/version/version-child/versionChild
     NameChild,
     LifeCycle,
     VersionParentComponent,
-    VersionChildComponent
+    VersionChildComponent,
+    TempBasicComponent
   ],
   imports: [
     BrowserModule
